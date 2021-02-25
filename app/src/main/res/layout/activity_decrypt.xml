@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="#455A64"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#455A64"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+
+        android:background="#455A64">
+
+        <TextView
+            android:id="@+id/tvFileName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FileName"
+            android:textAlignment="center"
+            android:textSize="27sp"
+            android:layout_marginTop="7dp"
+            android:textColor="#ffffff"
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:orientation="vertical"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            >
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                />
+
+
+        </LinearLayout>
+
+
+
+
+
+
+        <TableRow android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:background="@drawable/both"
+            android:layout_marginTop="23dp"
+            android:layout_gravity="center">
+
+            <Button
+                android:id="@+id/btnDecrypt"
+                android:layout_width="142dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="3dp"
+                android:background="@drawable/btn"
+                android:text="Decrypt"
+                android:textColor="#ffffff"
+                android:textSize="16sp"
+                />
+        </TableRow>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
